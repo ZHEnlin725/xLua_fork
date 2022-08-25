@@ -5,6 +5,7 @@ on:
     paths: 
       - build/**
       - .github/workflows/build.yml
+  workflow_dispatch:
 
 jobs:
   android:
